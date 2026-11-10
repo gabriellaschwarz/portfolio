@@ -1,7 +1,4 @@
-# Once your website is complete:
-- Publish it using **GitHub Pages**.
-- Verify that **all pages load correctly** and that **all links work properly**.
-- Submit the **URL** of your GitHub Pages website.
+Note: This is a test portfolio for a DS4200 homework assignment! This is not my official portfolio.
 
 # portfolio
 - `index.html`: home page

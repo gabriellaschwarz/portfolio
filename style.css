@@ -6,7 +6,7 @@
 */
 
 /* import custom fonts: */
-@import url('https://fonts.googleapis.com/css2?family=Momo+Signature&family=Karma:wght@400;600&family=Public+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@400;600&family=Public+Sans:wght@400;600&display=swap');
 
 /* colors copied from my portfolio */
 :root {
@@ -88,19 +88,7 @@ svg {
   min-width: 0;
 }
 
-/* home page text */
-.home-text {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-
 /* contact box on home page */
 .contact {
-  padding: 20px;
-}
-
-/* footer on cafe page */
-footer {
   padding: 20px;
 }

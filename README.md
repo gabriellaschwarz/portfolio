@@ -2,7 +2,7 @@ Note: This is a test portfolio for a DS4200 homework assignment! This is not my 
 
 # portfolio
 - `index.html`: home page
-- `cafe.html`: about my design degree capstone project
+- `cafe.html`: about my popup apartment cafe
 - `style.css`: style guide
 
 Live site: https://gabriellaschwarz.github.io/portfolio/

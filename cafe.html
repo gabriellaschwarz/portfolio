@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wigz Cafe</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- D3 library for the chart -->
+    <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+  </head>
+  <body>
+    <main>
+      <div class="img-text-section">
+
+        <div class="image-column">
+          <!-- **At least one image** relevant to the content. -->
+          <img src="images/wigz.JPG" alt="Me and Viti before wigz cafe 14" />
+
+          <!-- **At least one D3 visualization** relevant to the content. -->
+          <h2>Attendance of Wigz: New vs Returning Guests</h2>
+          <div id="chart"></div>
+
+        </div>
+        
+        <div class="page-content">
+          <nav>
+            <a href="index.html">Home</a>
+            <!-- Second Page (or additional pages) (10 points): -->
+            <a href="cafe.html">Wigz Cafe</a>
+          </nav>
+
+          <!-- A **heading that is smaller** than the main heading on the Home Page. -->
+          <h2>Wigz Cafe</h2>
+
+          <!-- **Descriptive text** that expands on the topic (**at least 200 words**).-->
+          <p>
+            Wigz Cafe was started, as previously mentioned, from my former
+            apartment on Wigglesworth street. After hosting a very successful
+            cafe-themed 21st birthday party, I realized that this was something
+            I wanted to do all the time, not just on my birthday. The following
+            September, my roommate Viti and I hosted the very first Wigz Cafe.
+            Wigz Cafe is a pop-up cafe concept hosted at my apartment. It is an
+            event where guests are welcomed into my home to enjoy pastries baked
+            by me, and handcrafted drinks whisked up by Viti. We ask that people
+            pay just enough to cover our expenses and occasionally make a small
+            profit that goes right back into the cafe! This weekend (November
+            2026) we will be hosting the 15th Wigz Cafe – we have run at least
+            one every month since starting, and I am so excited! I really enjoy
+            the opportunity to bake for others, but also the chance to spark
+            community and quality time with friends. It has been a huge learning
+            experience for me, and has become so meaningful that I have chosen
+            to host a similar event, a community-centered Bake Sale, for my
+            capstone project. The event information can be found
+            <a
+              href="https://partiful.com/e/Vz90eWXhefF8pwH9tmav?c=krXwH1wq"
+              target="_blank"
+              >here</a>, and if you’re reading this, you’re more than welcome to attend!
+          </p>
+
+           <!-- A **list** (ordered or unordered) related to the topic. -->
+          <h2>Star Guests of Wigz Cafe</h2>
+          <p>(These guests have RSVPed to 11 cafes each!)</p>
+
+          <ul>
+            <li>Amelia</li>
+            <li>Ari</li>
+            <li>Gabe</li>
+            <li>Kristina</li>
+            <li>Nola</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <!-- draws the D3 chart into <div id="chart"> (code lives in chart.js) -->
+    <script src="chart.js"></script>
+  </body>
+</html>
